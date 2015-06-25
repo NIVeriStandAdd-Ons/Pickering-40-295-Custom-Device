@@ -21,4 +21,5 @@
 	<Item Name="Pickering 40-295 System Explorer.vi" Type="VI" URL="../Pickering 40-295 System Explorer.vi"/>
 	<Item Name="res_Set Resistance.vi" Type="VI" URL="../res_Set Resistance.vi"/>
 	<Item Name="res_Get Resistance.vi" Type="VI" URL="../res_Get Resistance.vi"/>
+	<Item Name="Custom Device Pickering NI.xml" Type="Document" URL="../Custom Device Pickering NI.xml"/>
 </Library>

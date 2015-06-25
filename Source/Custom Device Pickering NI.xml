@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-	<XSDVersion Major="2014" Minor="0" Fix="0" Build="0" />
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
 		<eng>Pickering 40-295</eng>
 		<loc>Pickering 40-295</loc>
@@ -8,21 +8,21 @@
 	<Version>1.0.0</Version>
 	<Type>Asynchronous</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
-	<MainPageGUID>03D3BC35-1485-13A6-56AAA34594812D3E</MainPageGUID>
+	<MainPageGUID>ee768deb-db20-48fa-b4b4-89bfbfd2815b</MainPageGUID>
 	<InitializationVI>
 		<Type>Action</Type>
 		<Execution>silent</Execution>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\MyCustomDevices\Pickering Configuration.llb\Pickering 40-295 Initialization.vi</Path>
+			<Path>Custom Devices\Pickering 40-295\Pickering 40-295 - Configuration.llb\Pickering 40-295 Initialization.vi</Path>
 		</Item2Launch>
 	</InitializationVI>
 	<CustomDeviceVI>
 		<Source>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\MyCustomDevices\C\Pickering Engine.llb\Pickering 40-295 Driver.vi</Path>
+			<Path>Custom Devices\Pickering 40-295\Pickering 40-295 - Engine.llb\Pickering 40-295 Driver.vi</Path>
 		</Source>
-		<RealTimeSystemDestination>C:\ni-rt\VeriStand\Custom Devices\Pickering 40-295\Pickering Engine.llb\Pickering 40-295 Driver.vi</RealTimeSystemDestination>
+		<RealTimeSystemDestination>C:\ni-rt\VeriStand\Custom Devices\Pickering 40-295\Pickering 40-295 - Engine.llb\Pickering 40-295 Driver.vi</RealTimeSystemDestination>
 	</CustomDeviceVI>
 	<Dependencies />
 	<Pages>
@@ -31,14 +31,14 @@
 				<eng>Pickering 40-295</eng>
 				<loc>Pickering 40-295</loc>
 			</Name>
-			<GUID>03D3BC35-1485-13A6-56AAA34594812D3E</GUID>
+			<GUID>ee768deb-db20-48fa-b4b4-89bfbfd2815b</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\MyCustomDevices\Glyph\Pickering.png</Path>
+				<Path>Custom Devices\Pickering 40-295\Glyph\Pickering.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\MyCustomDevices\Pickering Configuration.llb\Pickering 40-295 System Explorer.vi</Path>
+				<Path>Custom Devices\Pickering 40-295\Pickering 40-295 - Configuration.llb\Pickering 40-295 System Explorer.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu />
 		</Page>
